@@ -1,17 +1,17 @@
 {
-  "name": "zomoto-server",
+  "name": "zomato-server",
   "version": "1.0.0",
-  "description": "Zomoto Backend",
+  "description": "Zomato Backend in Nodejs",
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "build": "babel src -d build"
   },
-  "author": "Kumaran Bk",
+  "author": "Aditya Gusain",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1034.0",
+    "aws-sdk": "^2.1033.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -24,12 +24,10 @@
     "nodemon": "^2.0.14",
     "passport": "^0.5.0",
     "passport-google-oauth20": "^2.0.0",
-    "passport-jwt": "^4.0.0"
-  },
-  "devDependencies": {
+    "passport-jwt": "^4.0.0",
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.4"
+    "@babel/preset-env": "^7.16.0"
   }
 }
